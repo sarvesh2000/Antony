@@ -14,6 +14,14 @@
     <h3 class="display-3 text-center">Request for Approval</h3>
     <form action="">
         <div class="form-group">
+            <label for="requestType">Request Type</label>
+            <select name="requestType" id="requestType">
+                <option value="ML">ML</option>
+                <option value="OD">OD</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        <div class="form-group">
             <label for="description">Request Description</label>
             <input type="text" id="description" class="form-control">
         </div>
